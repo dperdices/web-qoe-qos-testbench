@@ -1,0 +1,3 @@
+[submodule "priv-accept"]
+	path = priv-accept
+	url = https://github.com/marty90/priv-accept.git
