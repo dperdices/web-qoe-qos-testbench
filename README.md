@@ -3,16 +3,22 @@ A testbench made in mininet/containernet for web QoE-QoS correlation
 
 ## Requirements
 
-- Containernet (https://github.com/containernet/containernet)
+- Containernet, a mininet fork compatible with docker containers (https://github.com/containernet/containernet)
 
 - docker
 
-- priv-accept (as a submodule)
+- priv-accept (already as a submodule)
 
 - tcpdump
 
 ## How to run it
 
+First, you need to build priv-accept. You need to run
+```
+make build_container
+```
+
+After this process, you should be able to run the program relying on containernet
 ```
 optional arguments:
   -h, --help            show this help message and exit
