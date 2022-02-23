@@ -127,3 +127,12 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Traces
+*.pcap
+
+# Log files
+*.log
+
+# Result files
+results*.json
